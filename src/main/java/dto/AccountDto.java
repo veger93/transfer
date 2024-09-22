@@ -20,3 +20,4 @@ public class AccountDto {
     String purpose;
     @JsonProperty("account_details_id")
     Long accountDetailsId;
+}

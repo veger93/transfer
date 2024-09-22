@@ -23,7 +23,7 @@ public class Account {
     Long id;
 
     @NotNull
-    @Column(name = "account_number", precision = 20)
+    @Column(name = "account_number", length = 20)
     Long accountNumber;
 
     @NotNull
